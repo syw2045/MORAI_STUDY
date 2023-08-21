@@ -32,12 +32,11 @@ catkin_make
 <img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/7858ce99-db5c-45e7-bbe2-2ad98a4c2a5a" width="50%" height="50%"/>
 
 ### 8. sliding_window
-
-![8_final](https://github.com/syw2045/syw2045.github.io/assets/81313733/f9b8a1e1-8f29-46d5-b32b-d1c0eecb16c4)
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/f9b8a1e1-8f29-46d5-b32b-d1c0eecb16c4" width="50%" height="50%"/>
 
 ### 9. LKAS
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/32ae738b-e69c-43dc-b6e0-57aff9326f3e" width="50%" height="50%"/>
 
-![9-final (2)](https://github.com/syw2045/syw2045.github.io/assets/81313733/32ae738b-e69c-43dc-b6e0-57aff9326f3e)
 
 # GPS Exercise
 
