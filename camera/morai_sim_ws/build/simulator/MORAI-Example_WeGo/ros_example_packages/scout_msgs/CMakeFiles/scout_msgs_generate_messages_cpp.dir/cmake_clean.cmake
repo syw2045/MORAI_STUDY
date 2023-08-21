@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include/scout_msgs/ScoutLightCmd.h"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include/scout_msgs/ScoutLightState.h"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include/scout_msgs/ScoutMotorState.h"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include/scout_msgs/ScoutStatus.h"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/include/scout_msgs/ScoutLightCmd.h"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/include/scout_msgs/ScoutLightState.h"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/include/scout_msgs/ScoutMotorState.h"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/include/scout_msgs/ScoutStatus.h"
   "CMakeFiles/scout_msgs_generate_messages_cpp"
 )
 

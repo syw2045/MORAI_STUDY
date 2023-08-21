@@ -1,4 +1,4 @@
-prefix=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel
+prefix=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel
 
 Name: wecar_ros
 Description: Description of wecar_ros

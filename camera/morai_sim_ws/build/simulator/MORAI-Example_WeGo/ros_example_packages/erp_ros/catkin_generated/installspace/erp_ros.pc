@@ -1,4 +1,4 @@
-prefix=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install
+prefix=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/install
 
 Name: erp_ros
 Description: Description of erp_ros

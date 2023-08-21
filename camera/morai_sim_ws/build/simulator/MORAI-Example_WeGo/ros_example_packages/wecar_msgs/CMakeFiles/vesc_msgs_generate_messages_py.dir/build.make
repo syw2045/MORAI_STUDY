@@ -43,43 +43,43 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src
+CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build
+CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build
 
 # Utility rule file for vesc_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/progress.make
 
-simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
-simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
-simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py
+simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
+simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
+simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py
 
 
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG vesc_msgs/VescState"
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG vesc_msgs/VescState"
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg
 
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG vesc_msgs/VescStateStamped"
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG vesc_msgs/VescStateStamped"
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg
 
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for vesc_msgs"
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg --initpy
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for vesc_msgs"
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg --initpy
 
 vesc_msgs_generate_messages_py: simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py
-vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
-vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
-vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py
+vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescState.py
+vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/_VescStateStamped.py
+vesc_msgs_generate_messages_py: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/vesc_msgs/msg/__init__.py
 vesc_msgs_generate_messages_py: simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/build.make
 
 .PHONY : vesc_msgs_generate_messages_py
@@ -90,10 +90,10 @@ simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msg
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/build
 
 simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/clean:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/clean
 
 simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/depend:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_py.dir/depend
 

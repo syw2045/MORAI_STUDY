@@ -67,14 +67,14 @@ set(erp_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(erp_ros_SOURCE_PREFIX /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/erp_ros)
-  set(erp_ros_DEVEL_PREFIX /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel)
+  set(erp_ros_SOURCE_PREFIX /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/erp_ros)
+  set(erp_ros_DEVEL_PREFIX /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel)
   set(erp_ros_INSTALL_PREFIX "")
   set(erp_ros_PREFIX ${erp_ros_DEVEL_PREFIX})
 else()
   set(erp_ros_SOURCE_PREFIX "")
   set(erp_ros_DEVEL_PREFIX "")
-  set(erp_ros_INSTALL_PREFIX /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install)
+  set(erp_ros_INSTALL_PREFIX /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/install)
   set(erp_ros_PREFIX ${erp_ros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src
+CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build
+CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.di
 .PHONY : simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-ROS_morai_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-ROS_morai_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simulator/MORAI-ROS_morai_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

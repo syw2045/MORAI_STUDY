@@ -1,8 +1,8 @@
-# Install script for directory: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs
+# Install script for directory: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,76 +39,76 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/msg" TYPE FILE FILES
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include/scout_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/include/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/roseus/ros/scout_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/roseus/ros/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/common-lisp/ros/scout_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/common-lisp/ros/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/scout_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/scout_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/lib/python3/dist-packages/scout_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/lib/python3/dist-packages/scout_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig.cmake"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig-version.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs/cmake" TYPE FILE FILES
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig.cmake"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig-version.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/catkin_generated/installspace/scout_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_msgs" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/package.xml")
 endif()
 

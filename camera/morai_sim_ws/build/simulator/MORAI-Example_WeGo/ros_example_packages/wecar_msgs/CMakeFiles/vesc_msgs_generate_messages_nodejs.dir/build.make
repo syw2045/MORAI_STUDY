@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src
+CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build
+CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build
 
 # Utility rule file for vesc_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/progress.make
 
-simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js
-simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js
+simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js
+simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js
 
 
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from vesc_msgs/VescState.msg"
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from vesc_msgs/VescState.msg"
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg
 
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
-/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from vesc_msgs/VescStateStamped.msg"
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from vesc_msgs/VescStateStamped.msg"
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg/VescStateStamped.msg -Ivesc_msgs:/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p vesc_msgs -o /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg
 
 vesc_msgs_generate_messages_nodejs: simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs
-vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js
-vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js
+vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescState.js
+vesc_msgs_generate_messages_nodejs: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/devel/share/gennodejs/ros/vesc_msgs/msg/VescStateStamped.js
 vesc_msgs_generate_messages_nodejs: simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : vesc_msgs_generate_messages_nodejs
@@ -82,10 +82,10 @@ simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msg
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/build
 
 simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/clean
 
 simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/wecar_msgs/CMakeFiles/vesc_msgs_generate_messages_nodejs.dir/depend
 

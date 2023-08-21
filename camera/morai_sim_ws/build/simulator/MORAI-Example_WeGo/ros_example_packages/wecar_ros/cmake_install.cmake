@@ -1,8 +1,8 @@
-# Install script for directory: /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros
+# Install script for directory: /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wecar_ros/cmake" TYPE FILE FILES
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_rosConfig.cmake"
-    "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_rosConfig-version.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_rosConfig.cmake"
+    "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/catkin_generated/installspace/wecar_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wecar_ros" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wecar_ros" TYPE FILE FILES "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/wecar_ros/package.xml")
 endif()
 

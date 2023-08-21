@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src
+CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build
+CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build
 
 # Utility rule file for _scout_msgs_generate_messages_check_deps_ScoutLightCmd.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_w
 include simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/progress.make
 
 simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py scout_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg 
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py scout_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg 
 
 _scout_msgs_generate_messages_check_deps_ScoutLightCmd: simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd
 _scout_msgs_generate_messages_check_deps_ScoutLightCmd: simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/build.make
@@ -67,10 +67,10 @@ simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_m
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/build
 
 simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/clean:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/cmake_clean.cmake
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/cmake_clean.cmake
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/clean
 
 simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/depend:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/_scout_msgs_generate_messages_check_deps_ScoutLightCmd.dir/depend
 

@@ -2,7 +2,7 @@
 
 message(STATUS "scout_msgs: 4 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iscout_msgs:/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iscout_msgs:/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,24 +17,24 @@ add_custom_target(scout_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_custom_target(_scout_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" "scout_msgs/ScoutMotorState:std_msgs/Header:scout_msgs/ScoutLightState"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" "scout_msgs/ScoutMotorState:scout_msgs/ScoutLightState:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_custom_target(_scout_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" ""
 )
 
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_custom_target(_scout_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" ""
 )
 
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_custom_target(_scout_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "scout_msgs" "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" ""
 )
 
 #
@@ -44,25 +44,25 @@ add_custom_target(_scout_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_cpp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/scout_msgs
-)
-_generate_msg_cpp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_cpp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/scout_msgs
+)
+_generate_msg_cpp(scout_msgs
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/scout_msgs
@@ -82,13 +82,13 @@ add_custom_target(scout_msgs_generate_messages_cpp
 add_dependencies(scout_msgs_generate_messages scout_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_cpp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_cpp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_cpp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_cpp _scout_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -101,25 +101,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS scout_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_eus(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/scout_msgs
-)
-_generate_msg_eus(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_eus(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/scout_msgs
+)
+_generate_msg_eus(scout_msgs
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/scout_msgs
@@ -139,13 +139,13 @@ add_custom_target(scout_msgs_generate_messages_eus
 add_dependencies(scout_msgs_generate_messages scout_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_eus _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_eus _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_eus _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_eus _scout_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -158,25 +158,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS scout_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_lisp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/scout_msgs
-)
-_generate_msg_lisp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_lisp(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/scout_msgs
+)
+_generate_msg_lisp(scout_msgs
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/scout_msgs
@@ -196,13 +196,13 @@ add_custom_target(scout_msgs_generate_messages_lisp
 add_dependencies(scout_msgs_generate_messages scout_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_lisp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_lisp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_lisp _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_lisp _scout_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -215,25 +215,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS scout_msgs_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_nodejs(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/scout_msgs
-)
-_generate_msg_nodejs(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_nodejs(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/scout_msgs
+)
+_generate_msg_nodejs(scout_msgs
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/scout_msgs
@@ -253,13 +253,13 @@ add_custom_target(scout_msgs_generate_messages_nodejs
 add_dependencies(scout_msgs_generate_messages scout_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_nodejs _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_nodejs _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_nodejs _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_nodejs _scout_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -272,25 +272,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS scout_msgs_generate_messages_nodejs
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg;/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_py(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/scout_msgs
-)
-_generate_msg_py(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/scout_msgs
 )
 _generate_msg_py(scout_msgs
-  "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/scout_msgs
+)
+_generate_msg_py(scout_msgs
+  "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/scout_msgs
@@ -310,13 +310,13 @@ add_custom_target(scout_msgs_generate_messages_py
 add_dependencies(scout_msgs_generate_messages scout_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutStatus.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_py _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutMotorState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_py _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightState.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_py _scout_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/msg/ScoutLightCmd.msg" NAME_WE)
 add_dependencies(scout_msgs_generate_messages_py _scout_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

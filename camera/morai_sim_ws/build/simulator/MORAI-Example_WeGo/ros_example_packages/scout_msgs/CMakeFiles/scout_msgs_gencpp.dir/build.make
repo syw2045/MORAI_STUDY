@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src
+CMAKE_SOURCE_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build
+CMAKE_BINARY_DIR = /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build
 
 # Utility rule file for scout_msgs_gencpp.
 
@@ -63,10 +63,10 @@ simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_ms
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/build
 
 simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/clean:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && $(CMAKE_COMMAND) -P CMakeFiles/scout_msgs_gencpp.dir/cmake_clean.cmake
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs && $(CMAKE_COMMAND) -P CMakeFiles/scout_msgs_gencpp.dir/cmake_clean.cmake
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/clean
 
 simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/depend:
-	cd /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/src/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs /home/ssong/Documents/MORAI_STUDY/camera/morai_sim_ws/build/simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : simulator/MORAI-Example_WeGo/ros_example_packages/scout_msgs/CMakeFiles/scout_msgs_gencpp.dir/depend
 
