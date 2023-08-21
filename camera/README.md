@@ -13,18 +13,25 @@ catkin_make
 
 ### 3. bird_eye_view
 
-![3](https://github.com/syw2045/MORAI_STUDY/assets/81313733/0c20a917-07b4-4161-9681-a236f2fb87dc)
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/ae0af1b6-4f8a-4408-be67-ba24569f6b4a" width="50%" height="50%"/>
 
 ### 4. white_line_detect
 
-![4_final](https://github.com/syw2045/MORAI_STUDY/assets/81313733/122ddc24-5716-4d76-90c5-e26b344e85cc)
+<img src="https://github.com/syw2045/MORAI_STUDY/assets/81313733/122ddc24-5716-4d76-90c5-e26b344e85cc" width="50%" height="50%"/>
 
 ### 5. yellow_line_detect
 
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/c1ae640d-eddf-4b54-af6f-0bc9f1023d36" width="50%" height="50%"/>
+
 ### 6. blend_line
+
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/e1ba5e1a-d236-41b4-af7a-7c3f12f578d7" width="50%" height="50%"/>
 
 ### 7. binary_line
 
+<img src="https://github.com/syw2045/syw2045.github.io/assets/81313733/7858ce99-db5c-45e7-bbe2-2ad98a4c2a5a" width="50%" height="50%"/>
+
 ### 8. sliding_window
+
 
 ### 9. LKAS
