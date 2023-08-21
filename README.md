@@ -2,7 +2,7 @@
 
 This repository is for MORAI Simulation Study
 1. Camera & GPS
-2. Slam & Navigation
+2. SLAM & Navigation
 
 ## Environment
 ```
