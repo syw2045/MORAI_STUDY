@@ -1,12 +1,12 @@
-# Camera & GPS Exercise
+# Camera Exercise
 
-## Start
+## SetUp
 ```
 cd /MORAI_STUDY/camera/morai_sim_ws
 catkin_make
 ```
 
-## Explain
+## 
 
 ### 1.sub_camera & 2.pub_camera
 
@@ -33,5 +33,14 @@ catkin_make
 
 ### 8. sliding_window
 
+![8_final](https://github.com/syw2045/syw2045.github.io/assets/81313733/f9b8a1e1-8f29-46d5-b32b-d1c0eecb16c4)
 
 ### 9. LKAS
+
+![9-final (2)](https://github.com/syw2045/syw2045.github.io/assets/81313733/32ae738b-e69c-43dc-b6e0-57aff9326f3e)
+
+# GPS Exercise
+
+### 1. path_maker
+
+### 2. path_planner
