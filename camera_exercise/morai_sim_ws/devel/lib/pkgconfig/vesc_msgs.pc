@@ -1,0 +1,8 @@
+prefix=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel
+
+Name: vesc_msgs
+Description: Description of vesc_msgs
+Version: 0.0.1
+Cflags: -I/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

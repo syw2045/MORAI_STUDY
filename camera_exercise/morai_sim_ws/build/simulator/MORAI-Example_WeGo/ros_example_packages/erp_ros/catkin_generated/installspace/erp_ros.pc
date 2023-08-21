@@ -1,0 +1,8 @@
+prefix=/home/ssong/Documents/MORAI_STUDY/camera_exercise/morai_sim_ws/install
+
+Name: erp_ros
+Description: Description of erp_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
